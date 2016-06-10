@@ -12,8 +12,8 @@ const styles = {
   base: {
     // fontFamily: 'Menlo, monospace',
     fontFamily: "'Source Code Pro', 'Monaco', monospace",
-    fontSize: '18px',
-    lineHeight: '22px',
+    fontSize: '16px',
+    lineHeight: '18px',
     cursor: 'default',
   },
   propertyNodesBox: {

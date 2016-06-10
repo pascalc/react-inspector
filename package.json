@@ -1,6 +1,6 @@
 {
   "name": "@threadsafe/react-inspector",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Power of Browser DevTools inspectors right inside your React app",
   "main": "lib/index.js",
   "directories": {
