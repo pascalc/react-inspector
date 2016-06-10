@@ -10,9 +10,10 @@ import { DEFAULT_ROOT_PATH, getIsExpandable, getPathsState } from './pathUtils'
 import objectStyles from '../object/objectStyles';
 const styles = {
   base: {
-    fontFamily: 'Menlo, monospace',
-    fontSize: '11px',
-    lineHeight: '14px',
+    // fontFamily: 'Menlo, monospace',
+    fontFamily: "'Source Code Pro', 'Monaco', monospace",
+    fontSize: '18px',
+    lineHeight: '22px',
     cursor: 'default',
   },
   propertyNodesBox: {
@@ -31,7 +32,7 @@ const InspectorBox = ({ children }) =>
 
 // a box with left padding containing the property nodes
 const PropertyNodesBox = ({ children }) =>
-   <div style={styles.propertyNodesBox}>{ children }</div>
+   <div className="propertyNodesBox" style={styles.propertyNodesBox}>{ children }</div>
 
 export default class ObjectInspector extends Component {
   constructor(props) {

@@ -1,36 +1,36 @@
 export default {
   name: {
-    color: 'rgb(136, 19, 145)',
+    color: '#a6e22e',
   },
   nameDimmed: {
-    color: 'rgb(136, 19, 145)',
+    color: '#a6e22e',
     opacity: 0.6,
   },
   value: {
     null: {
-      color: 'rgb(128, 128, 128)',
+      color: '#ae81ff',
     },
     undefined: {
-      color: 'rgb(128, 128, 128)',
+      color: '#ae81ff',
     },
     regexp: {
       color: 'rgb(196, 26, 22)',
     },
     string: {
-      color: 'rgb(196, 26, 22)',
+      color: '#e6db74',
     },
     symbol: {
       color: 'rgb(196, 26, 22)',
     },
     number: {
-      color: 'rgb(28, 0, 207)',
+      color: '#ae81ff',
     },
     boolean: {
-      color: 'rgb(28, 0, 207)',
+      color: '#ae81ff',
     },
     function: {
       keyword: {
-        color: 'rgb(170, 13, 145)',
+        color: '#f92672',
         fontStyle: 'italic',
       },
       name: {
